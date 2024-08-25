@@ -1,0 +1,9 @@
+<div *ngIf="user">
+    <h2>User Details</h2>
+    <p><strong>Id:</strong> {{ user.id }}</p>
+    <p><strong>Created:</strong> {{ user.createAt }}</p>
+    <p><strong>Name:</strong> {{ user.name }}</p>
+    <p><strong>Email:</strong> {{ user.email }}</p>
+    <p><strong>Age:</strong> {{ user.age }}</p>
+    <button (click)="goBack()">Back</button>
+</div>
